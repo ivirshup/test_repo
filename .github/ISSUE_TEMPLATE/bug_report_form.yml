@@ -17,6 +17,14 @@ body:
       value: |
         ```python
         ```
+      placeholder: |
+        ```python
+        {your code here}
+        ```
+
+        ```pytb
+        {The error or traceback, if applicable}
+        ```
   - type: textarea
     id: what-happened
     attributes:
