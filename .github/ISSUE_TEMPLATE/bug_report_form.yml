@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug Report (form)
 description: Scanpy doesn’t do what it should? Please help us fix it!
 labels: [bug]
 body:
