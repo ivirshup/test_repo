@@ -6,6 +6,16 @@ body:
     attributes:
       value: |
         Scanpy doesn’t do what it should? Please help us fix it!
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before you open a new issue...
+      description: |
+        Please check that your issue hasn't been reported or solved already before openning a new issue!
+      options:
+        - label: I have checked that this issue has not already been reported.
+        - label: I have confirmed this bug exists on the latest version of scanpy.
+        - label: (optional) I have confirmed this bug exists on the master branch of scanpy.
   - type: textarea
     id: reproducer
     attributes:
