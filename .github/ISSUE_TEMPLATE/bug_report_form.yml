@@ -14,9 +14,6 @@ body:
         A small example that can reproduce this bug.
 
         **Note**: Please read [this guide](https://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports) detailing how to provide the necessary information for us to reproduce your bug.
-      value: |
-        ```python
-        ```
       placeholder: |
         ```python
         {your code here}
@@ -31,9 +28,7 @@ body:
       label: Description
       description: What happened? What did you expect to happen?
       placeholder: |
-        A bug happened!
-
-        Unexpectedly!
+        A bug happened! Unexpectedly!
     validations:
       required: true
   - type: textarea
