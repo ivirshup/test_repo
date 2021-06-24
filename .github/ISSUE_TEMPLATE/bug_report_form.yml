@@ -1,0 +1,33 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        - [ ] I have checked that this issue has not already been reported.
+        - [ ] I have confirmed this bug exists on the latest version of scanpy.
+        - [ ] (optional) I have confirmed this bug exists on the master branch of scanpy.
+
+        ---
+
+        **Note**: Please read [this guide](https://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports) detailing how to provide the necessary information for us to reproduce your bug.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Version and environment info
+      description: What version of Scanpy are you using, and what does your environment look like?
+      render: Text
+      placeholder: Paste output of `sc.logging.print_versions()` here!
+    validations:
+      required: true
