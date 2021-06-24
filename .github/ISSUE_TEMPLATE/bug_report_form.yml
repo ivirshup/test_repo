@@ -27,22 +27,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: placeholder
-    attributes:
-      label: Some text
-      placeholder: |
-        foo
-        bar
-        baz
-  - type: textarea
-    id: value
-    attributes:
-      label: Some text
-      value: |
-        foo
-        bar
-        baz
-  - type: textarea
     id: version
     attributes:
       label: Version and environment info
